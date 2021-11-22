@@ -29,8 +29,8 @@ void Ex5(char *str){
 			printf("Invalid!");
 			return;
 		}
-	}
 		printf("Valid!");
+	}	
 }
 	
 int main(int argc, char *argv[]) {

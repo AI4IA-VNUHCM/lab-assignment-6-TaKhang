@@ -26,12 +26,11 @@ void Ex5(char *str){
 	for(int i = 0; i <= (mark / 2) - 1; i++){
 		if(!(str[i] + 1 == str[mark - 1 - i] || str[i] + 2 == str[mark - 1 - i]))
 		{
-			printf("Invalid!");
+			puts("Invalid!");
 			return;
 		}
-		printf("Valid!");
-		return;
-	}	
+	}
+	puts("Valid!");
 }
 	
 int main(int argc, char *argv[]) {

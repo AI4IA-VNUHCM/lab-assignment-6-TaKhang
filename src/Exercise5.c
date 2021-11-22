@@ -30,6 +30,7 @@ void Ex5(char *str){
 			return;
 		}
 		printf("Valid!");
+		return;
 	}	
 }
 	
